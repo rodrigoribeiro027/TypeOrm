@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "login e gastos",
+    "dateExported": "2023-03-21T11:49:18.942Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "dbced59b-94fc-4f42-9d9d-b542b6e0f768",
+            "colId": "06b6d7f9-5ccf-44d7-a809-ddc0a021051f",
+            "containerId": "",
+            "name": "http://localhost:3001/spent",
+            "url": "http://localhost:3001/spent",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-03-21T11:30:14.665Z",
+            "modified": "2023-03-21T11:31:17.347Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n  \"description\":\"aki jas um Restaurante\",\n  \"value\":123\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibWFpbCI6ImFAZ21haWwuY29tIiwiaWF0IjoxNjc5Mzk3OTk1fQ.SPojhQ7lMYcTdn8ylNQ-ncVeoY9KWjO5PgQlDbkhcE0"
+            },
+            "tests": []
+        },
+        {
+            "_id": "92b0e0e4-f888-4b7b-966b-2c0441497714",
+            "colId": "06b6d7f9-5ccf-44d7-a809-ddc0a021051f",
+            "containerId": "",
+            "name": "http://localhost:3001/login",
+            "url": "http://localhost:3001/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-21T11:30:26.545Z",
+            "modified": "2023-03-21T11:30:26.545Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\n  {\n  \"mail\":\"a@gmail.com\",\n  \"password\":\"123\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1be62e77-107f-4d84-9808-5c6663119e62",
+            "colId": "06b6d7f9-5ccf-44d7-a809-ddc0a021051f",
+            "containerId": "",
+            "name": "http://localhost:3001/user",
+            "url": "http://localhost:3001/user/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-21T11:30:47.369Z",
+            "modified": "2023-03-21T11:30:47.369Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"mail\":\"a@gmail.com\",\n  \"password\":\"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
